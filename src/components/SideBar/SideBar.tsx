@@ -1,14 +1,14 @@
 import React from "react";
 import SideBarContainer from "./SideBarContainer.tsx";
 import SideBarLogo from "./SideBarLogo.tsx";
-import "./styles.css";
+import "../../styles.css";
 
 function SideBar() {
   return (
-    <React.Fragment>
+    <div className="SideBarWrapper">
       <SideBarLogo />
       <SideBarContainer />
-    </React.Fragment>
+    </div>
   );
 }
 

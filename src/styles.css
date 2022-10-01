@@ -1,0 +1,112 @@
+.wraper {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper-SideBarLogo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.SideBarLogo {
+  color: gray;
+}
+
+.SideBarWrapper {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  background-color: #2c2f34;
+}
+.SideBar-title {
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.liContainer ul {
+  color: gray;
+  font-size: 17px;
+  display: block;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c2f34;
+  border-bottom: 0.2px solid gray;
+  margin-left: 220.25px;
+  width: 100%;
+  height: 175px;
+  justify-content: space-around;
+}
+
+img {
+  margin-right: 15px;
+  margin-left: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+.topNav {
+  display: flex;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: gray;
+  padding: 14px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.bottomNav {
+  top: -100px;
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.navbar-user-profile {
+  display: block;
+  flex-direction: row;
+}
+.buttonNav{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-evenly;
+}
+Button{
+  width: 80px;
+  border-radius: 50px;
+  color: gray;
+  background-color: #2c2f34;
+  border: 1px solid gray;
+  margin: 5px;
+  cursor: pointer;
+}
+
+Button:hover {
+  background-color: rgba(255, 255, 255, 0.101);
+}
+
+.navbar-user-profile{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+input {
+  width: 280px;
+  padding: 6px;
+  border-radius: 20px;
+  background-color: gray;
+  border: none;
+  margin-left: 10px;
+  border: none;
+  height: 20px;
+}

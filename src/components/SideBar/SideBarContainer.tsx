@@ -12,18 +12,18 @@ function SideBarContainer() {
   const SideBarUtilItems: String[] = ["Setting", "Support", "Privacy"];
 
   return (
-    <>
-      <ul>
+    <div className="liContainer">
+      <ul className="SideBarItemsContainer">
         {SideBarItems.map((value) => {
           return <li>{value}</li>;
         })}
       </ul>
-      <ul>
+      <ul className="SideBarUtilContainer">
         {SideBarUtilItems.map((value) => {
           return <li>{value}</li>;
         })}
       </ul>
-    </>
+      </div>
   );
 }
 
