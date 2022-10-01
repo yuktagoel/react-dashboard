@@ -1,0 +1,13 @@
+.SideBar-title {
+  font-size: 30px;
+}
+
+.wrapper-SideBarLogo {
+  display: flex;
+}
+
+.SideBarLogo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
