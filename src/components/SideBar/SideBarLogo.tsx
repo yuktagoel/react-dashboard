@@ -4,13 +4,9 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 function SideBarLogo() {
   return (
-    <div className="wrapper-SideBarLogo">
-      <FontAwesomeSvgIcon
-        className="SideBarLogo"
-        icon={faCoffee}
-        style={{ height: "20px" }}
-      />
-      <div className="SideBar-title">Dashboard</div>
+    <div className="logo">
+    <h2>Dashboard</h2>
+
     </div>
   );
 }

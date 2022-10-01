@@ -13,18 +13,35 @@ function SideBarContainer() {
 
   return (
     <div className="liContainer">
-      <ul className="SideBarItemsContainer">
-        {SideBarItems.map((value) => {
+     <ul>
+          <li className="nav-sec">
+            <div className="nav-item active">
+            {SideBarItems.map((value) => {
           return <li>{value}</li>;
         })}
-      </ul>
-      <ul className="SideBarUtilContainer">
-        {SideBarUtilItems.map((value) => {
+            </div>
+            </li>
+</ul>
+<ul>
+          <li className="nav-sec">
+            <div className="nav-item active">
+            {SideBarUtilItems.map((value) => {
           return <li>{value}</li>;
         })}
-      </ul>
+            </div>
+            </li>
+</ul>
       </div>
   );
 }
 
 export default SideBarContainer;
+
+
+<ul>
+          <li className="nav-sec">
+            <div className="nav-item active">
+              Home
+            </div>
+            </li>
+</ul>

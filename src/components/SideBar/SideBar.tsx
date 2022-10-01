@@ -5,7 +5,7 @@ import "../../styles.css";
 
 function SideBar() {
   return (
-    <div className="SideBarWrapper">
+    <div className="sidebar">
       <SideBarLogo />
       <SideBarContainer />
     </div>
